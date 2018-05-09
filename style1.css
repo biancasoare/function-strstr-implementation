@@ -1,0 +1,48 @@
+.container{
+    width: 1140px;
+    margin:auto;
+}
+.left{
+    width: 198px;
+    float: left;
+    margin-right: 20px;
+}
+.logo img{
+    max-width: 100%;
+    height: auto;
+}
+.nav{
+    margin-top: 20px;
+}
+.main{
+    float: left;
+    width: 698px;
+    margin-right: 20px;
+}
+.sidebar{
+    width: 198px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* temp style - formatare vizuala ajutatoare */
+.logo, .nav, .main, .sidebar, .footer{
+    border: 1px solid #999;
+}
+.nav{
+    min-height: 360px;
+}
+.main, .sidebar{
+    min-height: 400px;
+}
+/* end temp styles */
